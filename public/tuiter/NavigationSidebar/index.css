@@ -1,0 +1,13 @@
+.c1-anchor-span{
+    margin-left: 5px;
+}
+
+.c1-anchor{
+    display: flex;
+    align-items: center;
+}
+
+.fa-stack.small{
+    font-size: 0.5em;
+    width: 14px;
+}

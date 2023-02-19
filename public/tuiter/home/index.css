@@ -1,0 +1,302 @@
+.body{
+    padding: 15px;
+}
+.fa-stack.small{
+    font-size: 0.5em;
+    width: 14px;
+}
+
+.c1-anchor-span{
+    margin-left: 5px;
+}
+
+.override-bs{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.c1-anchor{
+    display: flex;
+    align-items: center;
+}
+
+.c2-search-icon{
+    margin-left:10px;
+    margin-top: 12px;
+}
+
+.c2-input-search-group{
+    border:1px solid black;
+    border-radius: 25px; 
+    height:40px;
+}
+
+.c2-search-input-field{
+    margin:0px;
+    border: none;
+    outline: white;
+    border-color: none;
+    border-radius: 20px;
+}
+
+.form-control:focus /* => from bootstrap css */
+{
+ outline: 0;
+ box-shadow: 0 0 0 0 rgba(0,123,255,.25); /* => this cause the highlight! */
+}
+
+.c2-title{
+    color: darkgray;
+}
+
+.c2-author{
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.c2-img{
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+}
+
+.c3-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.c3-button{
+    border-radius: 25px;
+    align-items: right;
+    width: 25%;
+}
+
+.c3-list-items{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.c2-search-block{
+    display:flex;
+    border:1px solid black;
+    border-radius: 25px; 
+    height:40px;
+    width:90%;
+}
+
+
+.wd-grid-row {
+    clear: both;
+ }
+ 
+.wd-mid-grid{
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+ }
+
+ .wd-mid-grid-1{
+    height:0px;
+    background-color: lightgray;
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-bottom: 10px solid rgb(47, 51, 54);
+}
+
+.wd-mid-grid-2{
+    height:0px;
+    background-color: lightgray;
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-title-a{
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.wd-handle-a{
+    font-size: 13px;
+    margin-left: 16px;
+    color: lightgray;
+}
+
+.wd-mid-grid-s2{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-mid-grid-s2-b{
+    float:left;
+    width: 70px;
+    background-color: black;
+}
+
+.wd-mid-grid-s2-img{
+    margin-left: 16px;
+    margin-top: 12px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
+.wd-mid-grid-c{
+    float: left;
+    width: 512px;
+    /*height: 320px;*/
+    background-color: black;
+    color: white;
+}
+
+.wd-author-s2{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.wd-handle-s2{
+    color: lightgray;
+    bottom: 12px;
+}
+
+.wd-paragraph-d-s2{
+    position: relative;
+    left: 12px;
+    font-size: 15px;
+    width: 506px;
+    right: 16px;
+}
+
+.wd-image-holder-e{
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.wd-image-e{
+    width: 504px;
+    height: 264px;
+    position: relative;
+    left: 12px;
+    border-radius: 10px 10px 0px 0px;
+    display:inline-block;
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-title-s2-f{
+    position: relative;
+    top: 12px;
+    left: 12px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.wd-s2-f{
+    border: 1px solid rgb(47, 51, 54);
+    border-top: none;
+    position: relative;
+    left: 12px;
+    top: 0px;
+    width: 500px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+}
+
+.wd-paragraph-s2-f{
+    width: 480px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 12px;
+    color: lightgrey;
+}
+
+.wd-s2-g{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    width: 500px;
+}
+
+.wd-s2-icons{
+    display: flex;
+    margin-left: 16px;
+    justify-content: space-between;
+}
+
+.wd-s2-g-heart{
+    color: red;
+}
+
+.wd-s2-g-numbers{
+    margin-left: 12px;
+    font-size: 20px;
+    top: 0px;
+}
+
+.s2-b{
+    float: left;
+    width: 15%;
+    height: auto;
+}
+
+.s2-img-b{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    left: 16px;
+    top: 16px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.s2-cd{
+    float: left;
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+}
+
+.s2-g{
+    left: 12px;
+    top: 12px;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.s2-g-links{
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.s2-g-icons{
+    display: flex;
+    color: lightgray;
+    margin: 16px;
+}
+
+.float-done{
+    clear:both;
+}
+
+.bg-grey{
+    border-color: rgb(63, 62, 62);
+}

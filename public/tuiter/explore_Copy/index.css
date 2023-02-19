@@ -1,0 +1,87 @@
+.body{
+    padding: 15px;
+}
+.fa-stack.small{
+    font-size: 0.5em;
+    width: 14px;
+}
+
+.c1-anchor-span{
+    margin-left: 5px;
+}
+
+.override-bs{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.c1-anchor{
+    display: flex;
+    align-items: center;
+}
+
+.c2-search-icon{
+    margin-left:10px;
+    margin-top: 12px;
+}
+
+.c2-input-search-group{
+    border:1px solid black;
+    border-radius: 25px; 
+    height:40px;
+}
+
+.c2-search-input-field{
+    margin:0px;
+    border: none;
+    outline: white;
+    border-color: none;
+    border-radius: 20px;
+}
+
+.form-control:focus /* => from bootstrap css */
+{
+ outline: 0;
+ box-shadow: 0 0 0 0 rgba(0,123,255,.25); /* => this cause the highlight! */
+}
+
+.c2-title{
+    color: darkgray;
+}
+
+.c2-author{
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.c2-img{
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+}
+
+.c3-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.c3-button{
+    border-radius: 25px;
+    align-items: right;
+    width: 25%;
+}
+
+.c3-list-items{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.c2-search-block{
+    display:flex;
+    border:1px solid black;
+    border-radius: 25px; 
+    height:40px;
+    width:90%;
+}

@@ -1,0 +1,22 @@
+.c3-list-items{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.c2-author{
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.c3-button{
+    border-radius: 25px;
+    align-items: right;
+    width: 25%;
+}
+
+.c3-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}

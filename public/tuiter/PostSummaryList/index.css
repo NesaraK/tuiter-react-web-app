@@ -1,0 +1,15 @@
+.c2-author{
+    font-weight: bold;
+    margin-right: 3px;
+    color : white;
+}
+
+.c2-title{
+    color: lightgray;
+}
+
+.c2-img{
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+}
