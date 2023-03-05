@@ -1,0 +1,13 @@
+.wd-nav-anchor-text{
+    padding-left:10px;
+}
+
+.wd-nav-anchor{
+    display:flex;
+    align-items : center;
+}
+
+.fa-stack.small{
+    font-size: 0.5em;
+    width: 14px;
+}
