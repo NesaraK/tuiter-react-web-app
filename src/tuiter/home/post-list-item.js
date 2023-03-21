@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
 import {Link} from "react-router-dom";
+
+
 const PostListItem = (
     {
         post = 
@@ -75,6 +77,7 @@ const PostListItem = (
                                 <div className="s2-g-icons">
                                     <Link to="#"><i className="fa fa-upload fg-color-black" ></i></Link>
                                 </div>
+                                
                         </div>
                     </div>
                     

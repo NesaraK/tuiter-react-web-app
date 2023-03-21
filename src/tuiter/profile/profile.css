@@ -1,0 +1,49 @@
+.tuit-topic{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.tuit-bio{
+    margin-top: 16px;
+}
+
+.tuit-number{
+    font-weight: bold;
+}
+
+.margin-right-16{
+    margin-right: 16px;
+}
+
+.profile-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    left: 20px; 
+    top: 290px; 
+}
+
+.tuit-blank{
+    margin-top: 80px;
+}
+
+.edit-btn-class{
+    border-color: lightgray;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.profile-links{
+    margin-right: 16px;
+    display: flex;
+    width: 100%;
+    padding-right:16px;
+}
+
+.profile-icons{
+    margin-right: 15px;
+}
+
+.s2-g{
+    margin-top: 20px;
+}
