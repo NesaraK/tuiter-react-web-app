@@ -1,0 +1,65 @@
+[{ "_id": 123, 
+   "topic": "Web Development", 
+   "avatar_img": "spacex.png",
+   "userName": "ReactJS",
+   "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+   "time": "2h",   
+   "image": "reactlogo.png",
+   "liked": true,
+   "replies": 123,
+   "retuits": 432,
+   "likes": 2345,
+   "handle": "@reactjs",
+   "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+
+ { "_id": 234, 
+   "topic": "Web Development",  
+   "avatar_img": "NASA.png", 
+   "userName": "JavaScript",
+   "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+   "time": "1 day",   
+   "image": "JavaScript-logo.png",
+   "liked": false,
+   "replies": 321,
+   "retuits": 234,
+   "likes": 1234,
+   "handle": "@javascript",
+   "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  
+  },
+
+
+ { "_id": 345, 
+   "topic": "Web Development",
+   "avatar_img": "Vgal.png",  
+   "userName": "jQuery",
+   "title": "",
+   "time": "last week",   
+   "image": "Jquery.png",
+   "liked": false,
+   "replies": 123,
+   "retuits": 111,
+   "likes": 923,
+   "handle": "@jquery",
+   "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  
+  
+  },
+   
+
+{"_id": 444, 
+   "topic": "Web Development", 
+   "avatar_img": "starship.jpg", 
+   "userName": "NodeJS",
+   "title": "",
+   "time": "last month",   
+   "image": "NodeJS.png",
+   "liked": true,
+   "replies": 11,
+   "retuits": 222,
+   "likes": 333,
+   "handle": "@nodejs",
+   "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  }
+]

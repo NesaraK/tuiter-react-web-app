@@ -1,0 +1,29 @@
+.s2-img-b{
+    width: 3em;
+    height: 3em;
+    position: relative;
+    left: 16px;
+    top: 0px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.solid-black-border-1px{
+    border:1px solid black;
+    padding:10px;
+}
+
+.s2-g-links{
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right:16px;
+}
+
+.fg-color-black{
+    color:black;
+}
+
+.fg-color-red{
+    color:red;
+}

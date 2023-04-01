@@ -1,0 +1,39 @@
+.EditProfile-label{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.editprofile-button{
+    width: 80px;
+    background-color: black;
+    color: white;
+}
+
+.firstname-width{
+    width: 10%;
+}
+
+.lastname-width{
+    width: 10%;
+}
+
+.editprof-blank{
+    margin-top: 20px;
+}
+
+.profile-img-2{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    left: 20px; 
+    top: 270px; 
+}
+
+.w-10{
+    width: 10px;
+}
+.w-90{
+    width: 90%;
+}
+
+

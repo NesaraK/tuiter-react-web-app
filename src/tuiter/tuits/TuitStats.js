@@ -1,8 +1,9 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import { updateTuit } from "./tuits-reducer";
+//import { updateTuit } from "./tuits-reducer";
 import "./index.css";
+import { updateTuitThunk } from "../../services/tuits-thunks";
 
 const TuitStat = (
     {
@@ -24,7 +25,7 @@ const TuitStat = (
 ) => {
     const dispatch = useDispatch();
     const updateLikeHandler = (id) => {
-        dispatch(updateTuit(id));
+        //dispatch(updateTuit(id));
     }
     
  return(
@@ -42,8 +43,17 @@ const TuitStat = (
                                     <span class ="wd-s2-g-numbers">{tuit.retuits}</span>
                                 </div>
                                 <div className="s2-g-icons">
-                                    {tuit.liked && <Link to="#"><i className="fa fa-heart fg-color-red" onClick={()=>updateLikeHandler(tuit._id)}></i></Link>}
-                                    {!tuit.liked && <Link to="#"><i className="bi bi-heart fg-color-black" onClick={()=>updateLikeHandler(tuit._id)}></i></Link>}
+                                    {tuit.liked && <Link to="#"><i className="fa fa-heart fg-color-red" onClick={()=>dispatch(updateTuitThunk({
+                                        ...tuit, 
+                                        likes: tuit.likes - 1, 
+                                        liked: !tuit.liked
+                                    }))}></i></Link>}
+
+                                    {!tuit.liked && <Link to="#"><i className="bi bi-heart fg-color-black" onClick={()=>dispatch(updateTuitThunk({
+                                        ...tuit, 
+                                        likes: tuit.likes + 1, 
+                                        liked: !tuit.liked 
+                                    }))}></i></Link>}
                                     <span className ="wd-s2-g-numbers">{tuit.likes}</span>
                                 </div>
                                 <div className="s2-g-icons">
